@@ -1,0 +1,1753 @@
+/* !========================================
+  bootstrap xl device responsive... [xl]
+  her min-width:1200px and max-width:1399px
+========================================*/
+@media (min-width: 1400px) {
+  /* common css part start*/
+  svg {
+    width: 220px;
+    height: auto;
+  }
+  /* common css part end */
+  /* banner part css start */
+  .banner__vector__line {
+    position: absolute;
+    top: 304px;
+    left: 0;
+    width: 200px;
+  }
+  .banner__vector__dot {
+    position: absolute;
+    bottom: 73px;
+    right: 10%;
+  }
+  h1.banner__title {
+    font-size: 84px;
+  }
+  p.banner__text {
+    font-size: 24px;
+    line-height: 40px;
+    padding: 0 130px;
+  }
+  #banner {
+    padding-top: 246px;
+    padding-bottom: 254px;
+  }
+  /* banner part css end */
+
+  /* counting part css start */
+  #counting {
+    padding: 282px 0;
+  }
+  .counting__shap {
+    width: 160px;
+  }
+  .counting__vertical__shap {
+    width: 3px;
+    right: -6px;
+  }
+  .counting__item {
+    margin: 10px 0;
+  }
+  .counting__num {
+    font-size: 64px;
+  }
+  .counting__text {
+    font-size: 36px;
+  }
+  /* counting part css end */
+
+  /* about part css start */
+  #about {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .about__left__content__icon {
+    margin-left: 6px;
+  }
+  .about__left__content {
+    margin-left: 80px;
+  }
+  .about__left__content:hover {
+    margin-left: 80px;
+  }
+  .about__right__content {
+    text-align: start;
+    padding-bottom: 40px;
+  }
+  h3.about__right__title {
+    font-size: 48px;
+    padding-top: 0;
+  }
+  /* about part css end */
+
+  /* service part css start */
+  #service {
+    padding: 100px 0;
+  }
+  .service__heder {
+    text-align: start;
+  }
+  h3.service__title {
+    font-size: 48px;
+  }
+  p.service__description {
+    width: 100%;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 41px;
+    padding: 0;
+  }
+  .service__item {
+    padding: 48px;
+  }
+  p.service__item__text {
+    padding: 0;
+  }
+  .service__item__btn a {
+    font-size: 18px;
+  }
+  /* service part css end */
+
+  /* real impact part css start */
+  section#real__impact {
+    padding: 100px 0;
+  }
+  h3.real__impact__title {
+    font-size: 48px;
+    padding: 0;
+  }
+  p.real__impact__description {
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 23px;
+    padding: 0 40px;
+  }
+  .real__impact__content {
+    margin-top: 40px;
+  }
+  .real__impact__item {
+    align-items: center;
+  }
+  .impact__item__title {
+    font-size: 30px;
+    margin-top: 0;
+  }
+  .impact__item__text {
+    font-size: 18px;
+    line-height: 32px;
+    width: 100%;
+  }
+  /* real impact part css end */
+
+  /* price part css end */
+  section#price {
+    padding: 120px 0;
+  }
+  h3.price__title {
+    font-size: 48px;
+    margin-bottom: 64px;
+  }
+  .price__card {
+    padding: 40px 0;
+  }
+  h4.price__card__title {
+    font-size: 30px;
+    margin-bottom: 26px;
+  }
+  /* h4.price__cost {
+    font-size: 28px;
+    padding: 14px 0;
+  }
+  h4.price__cost sup {
+    font-size: 18px;
+  } */
+  p.price__card__text {
+    font-size: 18px;
+    line-height: 32px;
+    padding: 0 35px;
+  }
+  /* price part css end */
+
+  /* feedback part css start */
+  section#feedback {
+    padding: 120px 0;
+  }
+  h3.feedback__title {
+    font-size: 48px;
+    margin-bottom: 152px;
+  }
+  .client__ratting {
+    margin: 20px 0;
+  }
+  p.client__text {
+    font-size: 24px;
+    line-height: 40px;
+    padding: 0 140px;
+  }
+  h4.client__name {
+    font-size: 25px;
+    margin-top: 48px;
+  }
+  p.client__info {
+    font-size: 16px;
+  }
+  .client__container {
+    padding: 60px 0 40px 0;
+  }
+  .client__img {
+    top: -80px;
+  }
+
+  /* feedback part css end */
+
+  /* blog part css start */
+  section#blog {
+    padding: 120px 0;
+  }
+  h3.blog__main__title {
+    font-size: 50px;
+    margin-bottom: 64px;
+    text-align: center;
+  }
+  .offset-1 {
+    margin-left: 0 !important;
+  }
+  .blog__content {
+    padding-left: 0px;
+  }
+  .blog__info ul {
+    justify-content: flex-start;
+  }
+  .blog__info ul li {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .blog__info ul li span {
+    padding-right: 8px;
+  }
+  .blog__info ul li span,
+  .blog__info ul li a {
+    font-size: 16px;
+  }
+  h3.blog__title {
+    font-size: 30px;
+    line-height: 42px;
+  }
+  .blog__btn a {
+    font-size: 18px;
+  }
+  /* blog part css end */
+
+  /* footer part css start */
+  #footer {
+    padding-top: 100px;
+    padding-bottom: 10px;
+    text-align: start;
+  }
+  p.footer__left__text {
+    font-size: 18px;
+    line-height: 32px;
+    padding: 30px 32px 30px 0;
+  }
+  h4.footer__title {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  ul.footer__menu li a {
+    font-size: 18px;
+    padding: 10px 0;
+  }
+  .copyright__content {
+    align-items: center;
+  }
+  .copyright__left__text,
+  .copyright__right__content a {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+  /* footer part css end */
+}
+
+/* !========================================
+  bootstrap xl device responsive... [xl]
+  her min-width:1200px and max-width:1399px
+========================================*/
+@media (min-width: 1200px) and (max-width: 1399px) {
+  /* common css part start*/
+  svg {
+    width: 150px;
+    height: auto;
+  }
+  /* common css part end */
+  /* banner part css start */
+  .banner__vector__line {
+    position: absolute;
+    top: 304px;
+    left: 0;
+    width: 200px;
+  }
+  .banner__vector__dot {
+    position: absolute;
+    bottom: 73px;
+    right: 10%;
+  }
+  h1.banner__title {
+    font-size: 80px;
+  }
+  p.banner__text {
+    font-size: 24px;
+    line-height: 40px;
+    padding: 0 60px;
+  }
+  #banner {
+    padding-top: 220px;
+    padding-bottom: 180px;
+  }
+  /* banner part css end */
+
+  /* counting part css start */
+  #counting {
+    padding: 120px 0;
+  }
+  .counting__shap {
+    width: 160px;
+  }
+  .counting__vertical__shap {
+    width: 3px;
+    right: -6px;
+  }
+  .counting__item {
+    margin: 10px 0;
+  }
+  .counting__num {
+    font-size: 64px;
+    margin: 0;
+  }
+  .counting__text {
+    font-size: 33px;
+  }
+  /* counting part css end */
+
+  /* about part css start */
+  #about {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .about__left__content__icon {
+    margin-left: 6px;
+  }
+  .about__right__content {
+    text-align: start;
+    padding-bottom: 40px;
+  }
+  h3.about__right__title {
+    font-size: 48px;
+    padding-top: 20px;
+  }
+  button.service__btn {
+    padding: 15px 30px;
+    font-size: 18px;
+  }
+  /* about part css end */
+
+  /* service part css start */
+  #service {
+    padding: 80px 0;
+  }
+  .service__heder {
+    text-align: start;
+  }
+  h3.service__title {
+    font-size: 46px;
+  }
+  p.service__description {
+    width: 100%;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    padding: 0 8px;
+  }
+  button.service__btn {
+    padding: 15px 30px;
+    font-size: 18px;
+  }
+  .service__item {
+    padding: 24px 12px;
+  }
+  p.service__item__text {
+    padding: 0 22px;
+  }
+  .service__item__btn a {
+    font-size: 18px;
+  }
+  /* service part css end */
+
+  /* real impact part css start */
+  section#real__impact {
+    padding: 80px 0;
+  }
+  h3.real__impact__title {
+    font-size: 39px;
+    padding: 0 50px;
+  }
+  p.real__impact__description {
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 12px;
+    padding: 0 70px;
+  }
+  .real__impact__content {
+    margin-top: 40px;
+  }
+  .real__impact__item {
+    align-items: center;
+  }
+  .impact__item__title {
+    font-size: 30px;
+    margin-top: 0;
+  }
+  .impact__item__text {
+    font-size: 18px;
+    line-height: 32px;
+    width: 100%;
+  }
+  /* real impact part css end */
+
+  /* price part css end */
+  section#price {
+    padding: 80px 0;
+  }
+  h3.price__title {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+  .price__card {
+    padding: 40px 0;
+  }
+  h4.price__card__title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  /* h4.price__cost {
+    font-size: 28px;
+    padding: 14px 0;
+  }
+  h4.price__cost sup {
+    font-size: 18px;
+  } */
+  p.price__card__text {
+    font-size: 18px;
+    line-height: 32px;
+    padding: 0 18px;
+  }
+  /* price part css end */
+
+  /* feedback part css start */
+  section#feedback {
+    padding: 80px 0;
+  }
+  h3.feedback__title {
+    font-size: 48px;
+    margin-bottom: 120px;
+  }
+  .client__ratting {
+    margin: 20px 0;
+  }
+  p.client__text {
+    font-size: 22px;
+    line-height: 40px;
+    padding: 0 80px;
+  }
+  h4.client__name {
+    font-size: 25px;
+    margin-top: 28px;
+  }
+  p.client__info {
+    font-size: 16px;
+  }
+  .client__container {
+    padding: 60px 0 40px 0;
+  }
+  .client__img {
+    top: -80px;
+  }
+
+  /* feedback part css end */
+
+  /* blog part css start */
+  section#blog {
+    padding: 80px 0;
+  }
+  h3.blog__main__title {
+    font-size: 41px;
+    margin-bottom: 54px;
+    text-align: center;
+  }
+  .offset-1 {
+    margin-left: 0 !important;
+  }
+  .blog__content {
+    padding-left: 0px;
+  }
+  .blog__info ul {
+    justify-content: flex-start;
+  }
+  .blog__info ul li {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .blog__info ul li span {
+    padding-right: 8px;
+  }
+  .blog__info ul li span,
+  .blog__info ul li a {
+    font-size: 14px;
+  }
+  h3.blog__title {
+    font-size: 30px;
+    line-height: 42px;
+  }
+  .blog__btn a {
+    font-size: 16px;
+  }
+  /* blog part css end */
+
+  /* footer part css start */
+  #footer {
+    padding-top: 80px;
+    padding-bottom: 10px;
+    text-align: start;
+  }
+  p.footer__left__text {
+    font-size: 18px;
+    line-height: 32px;
+    padding: 14px 0;
+  }
+  h4.footer__title {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  ul.footer__menu li a {
+    font-size: 18px;
+    padding: 8px 0;
+  }
+  .copyright__content {
+    align-items: center;
+  }
+  .copyright__left__text,
+  .copyright__right__content a {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+  /* footer part css end */
+}
+
+/* !========================================
+  bootstrap lg device responsive... [lg]
+  her min-width:992px and max-width:1199px
+========================================*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* nav.navbar {
+    background: rgb(22, 12, 109);
+  } */
+  li.nav-item {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .nav-link {
+    font-size: 16px;
+  }
+  .nav-link i.fa-solid {
+    display: inline-block;
+  }
+  button.contact__btn {
+    padding: 10px 26px;
+    font-size: 16px;
+    width: auto;
+    margin-bottom: 0;
+  }
+  /* banner part css start */
+  h1.banner__title {
+    font-size: 68px;
+  }
+  p.banner__text {
+    font-size: 23px;
+    line-height: 40px;
+    padding: 0;
+  }
+  #banner {
+    padding-top: 220px;
+    padding-bottom: 180px;
+  }
+  .banner__btn {
+    padding: 15px 30px;
+    font-size: 20px;
+    margin: 10px;
+  }
+  /* banner part css end */
+
+  /* counting part css start */
+  #counting {
+    padding: 80px 0;
+  }
+  .counting__vertical__shap {
+    width: 3px;
+    right: -6px;
+  }
+  .counting__item {
+    margin: 10px 0;
+  }
+  .counting__num {
+    font-size: 64px;
+    margin: 0;
+  }
+  .counting__text {
+    font-size: 27px;
+  }
+  /* counting part css end */
+
+  /* about part css start */
+  #about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .about__left__content__icon {
+    margin-left: 6px;
+  }
+  p.about__left__text {
+    width: 100%;
+    font-size: 17px;
+    line-height: 30px;
+  }
+  .about__right__content {
+    text-align: start;
+    padding-bottom: 40px;
+  }
+  h3.about__right__title {
+    font-size: 48px;
+    padding-top: 20px;
+  }
+  p.about__right__description {
+    width: 100%;
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    padding: 0 8px;
+  }
+  button.service__btn {
+    padding: 15px 30px;
+    font-size: 18px;
+  }
+  /* about part css end */
+
+  /* service part css start */
+  #service {
+    padding: 80px 0;
+  }
+  .service__heder {
+    text-align: start;
+  }
+  h3.service__title {
+    font-size: 46px;
+  }
+  p.service__description {
+    width: 100%;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    padding: 0 8px;
+  }
+  button.service__btn {
+    padding: 15px 30px;
+    font-size: 18px;
+  }
+  .service__item {
+    padding: 24px 12px;
+  }
+  h3.service__item__title {
+    font-size: 29px;
+    padding: 16px 0 6px 0;
+  }
+  p.service__item__text {
+    font-size: 18px;
+    line-height: 32px;
+    padding: 0;
+  }
+  .service__item__btn a {
+    font-size: 18px;
+  }
+  /* service part css end */
+
+  /* real impact part css start */
+  section#real__impact {
+    padding: 80px 0;
+  }
+  h3.real__impact__title {
+    font-size: 48px;
+    padding: 0 50px;
+  }
+  p.real__impact__description {
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 12px;
+    padding: 0 16px;
+  }
+  .real__impact__content {
+    margin-top: 40px;
+  }
+  .real__impact__item {
+    align-items: center;
+  }
+  .impact__item__title {
+    font-size: 30px;
+    margin-top: 0;
+  }
+  .impact__item__text {
+    font-size: 18px;
+    line-height: 32px;
+    width: 100%;
+  }
+  /* real impact part css end */
+
+  /* price part css end */
+  section#price {
+    padding: 80px 0;
+  }
+  h3.price__title {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  .price__card {
+    padding: 40px 0;
+  }
+  h4.price__card__title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  /* h4.price__cost {
+    font-size: 28px;
+    padding: 14px 0;
+  }
+  h4.price__cost sup {
+    font-size: 18px;
+  } */
+  p.price__card__text {
+    font-size: 18px;
+    line-height: 32px;
+    padding: 0 18px;
+  }
+  /* price part css end */
+
+  /* feedback part css start */
+  section#feedback {
+    padding: 80px 0;
+  }
+  h3.feedback__title {
+    font-size: 46px;
+    margin-bottom: 120px;
+  }
+  .client__ratting {
+    margin: 20px 0;
+  }
+  p.client__text {
+    font-size: 22px;
+    line-height: 40px;
+    padding: 0 34px;
+  }
+  h4.client__name {
+    font-size: 25px;
+    margin-top: 28px;
+  }
+  p.client__info {
+    font-size: 16px;
+  }
+  .client__container {
+    padding: 60px 0 40px 0;
+  }
+  .client__img {
+    top: -80px;
+  }
+
+  /* feedback part css end */
+
+  /* blog part css start */
+  section#blog {
+    padding: 80px 0;
+  }
+  h3.blog__main__title {
+    font-size: 41px;
+    margin-bottom: 54px;
+    text-align: center;
+  }
+  .offset-1 {
+    margin-left: 0 !important;
+  }
+  .blog__content {
+    padding-left: 0px;
+  }
+  .blog__info ul {
+    justify-content: flex-start;
+  }
+  .blog__info ul li {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .blog__info ul li span {
+    padding-right: 8px;
+  }
+  .blog__info ul li span,
+  .blog__info ul li a {
+    font-size: 14px;
+  }
+  h3.blog__title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .blog__btn a {
+    font-size: 16px;
+  }
+  /* blog part css end */
+
+  /* footer part css start */
+  #footer {
+    padding-top: 80px;
+    padding-bottom: 10px;
+    text-align: start;
+  }
+  p.footer__left__text {
+    font-size: 16px;
+    line-height: 32px;
+    padding: 14px 0;
+  }
+  h4.footer__title {
+    font-size: 32px;
+    margin: 20px 0;
+  }
+  ul.footer__menu li a {
+    font-size: 16px;
+    padding: 4px 0;
+  }
+  .copyright__content {
+    align-items: center;
+  }
+  .copyright__left__text,
+  .copyright__right__content a {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  /* footer part css end */
+}
+
+/*!========================================
+  bootstrap md device responsive... [md]
+  her min-width:768px and max-width:991px 
+========================================*/
+@media (min-width: 768px) and (max-width: 991px) {
+  nav.navbar {
+    background: rgb(22, 12, 109);
+  }
+  .navbar-toggler {
+    border: none;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .navbar-collapse,
+  .navbar-nav {
+    text-align: center;
+  }
+  .nav-link i.fa-solid {
+    display: none;
+  }
+  button.contact__btn {
+    padding: 10px 28px;
+    font-size: 16px;
+    width: auto;
+    margin-bottom: 40px;
+  }
+
+  /* banner part css start */
+  h1.banner__title {
+    font-size: 54px;
+  }
+  p.banner__text {
+    font-size: 20px;
+    line-height: 40px;
+    padding: 0;
+  }
+  #banner {
+    padding-top: 220px;
+    padding-bottom: 180px;
+  }
+  .banner__btn {
+    padding: 15px 30px;
+    font-size: 20px;
+    margin: 10px;
+  }
+  /* banner part css end */
+
+  /* counting part css start */
+  #counting {
+    padding: 80px 0;
+  }
+  .counting__item {
+    margin: 10px 0;
+  }
+  .counting__num {
+    font-size: 64px;
+    margin: 0;
+  }
+  .counting__text {
+    font-size: 30px;
+  }
+  /* counting part css end */
+
+  /* about part css start */
+  #about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .about__left__content__icon {
+    margin-left: 6px;
+  }
+  p.about__left__text {
+    width: 100%;
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .about__right__content {
+    text-align: start;
+    padding-bottom: 40px;
+  }
+  h3.about__right__title {
+    font-size: 42px;
+    padding-top: 20px;
+  }
+  p.about__right__description {
+    width: 100%;
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    padding: 0 8px;
+  }
+  button.service__btn {
+    padding: 15px 30px;
+    font-size: 18px;
+  }
+  /* about part css end */
+
+  /* service part css start */
+  #service {
+    padding: 80px 0;
+  }
+  .service__heder {
+    text-align: start;
+  }
+  h3.service__title {
+    font-size: 42px;
+  }
+  p.service__description {
+    width: 100%;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    padding: 0 8px;
+  }
+  button.service__btn {
+    padding: 15px 30px;
+    font-size: 18px;
+  }
+  .service__item {
+    padding: 24px 12px;
+  }
+  h3.service__item__title {
+    font-size: 30px;
+    padding: 18px 0 6px 0;
+  }
+  p.service__item__text {
+    font-size: 18px;
+    line-height: 32px;
+    padding: 0 26px;
+  }
+  .service__item__btn a {
+    font-size: 18px;
+  }
+  /* service part css end */
+
+  /* real impact part css start */
+  section#real__impact {
+    padding: 80px 0;
+  }
+  h3.real__impact__title {
+    font-size: 42px;
+    padding-bottom: 5px;
+  }
+  p.real__impact__description {
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 12px;
+    padding: 0 64px;
+  }
+  .real__impact__content {
+    margin-top: 40px;
+  }
+  .real__impact__item {
+    align-items: center;
+  }
+  .impact__item__title {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  .impact__item__text {
+    font-size: 15px;
+    line-height: 32px;
+    width: 100%;
+  }
+  /* real impact part css end */
+
+  /* price part css end */
+  section#price {
+    padding: 80px 0;
+  }
+  h3.price__title {
+    font-size: 42px;
+    margin-bottom: 40px;
+  }
+  .price__card {
+    padding: 40px 0;
+  }
+  h4.price__card__title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  /* h4.price__cost {
+    font-size: 28px;
+    padding: 14px 0;
+  }
+  h4.price__cost sup {
+    font-size: 18px;
+  } */
+  p.price__card__text {
+    font-size: 18px;
+    line-height: 32px;
+    padding: 0 18px;
+  }
+  /* price part css end */
+
+  /* feedback part css start */
+  section#feedback {
+    padding: 80px 0;
+  }
+  h3.feedback__title {
+    font-size: 48px;
+    margin-bottom: 120px;
+  }
+  .client__ratting {
+    margin: 20px 0;
+  }
+  p.client__text {
+    font-size: 18px;
+    line-height: 40px;
+    padding: 0 34px;
+  }
+  h4.client__name {
+    font-size: 25px;
+    margin-top: 28px;
+  }
+  p.client__info {
+    font-size: 16px;
+  }
+  .client__container {
+    padding: 60px 0 40px 0;
+  }
+  .client__img {
+    top: -80px;
+  }
+  .client__slide__btn {
+    position: relative;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: space-around;
+  }
+  /* feedback part css end */
+
+  /* blog part css start */
+  section#blog {
+    padding: 80px 0;
+  }
+  h3.blog__main__title {
+    font-size: 42px;
+    margin-bottom: 54px;
+    text-align: center;
+  }
+  .offset-1 {
+    margin-left: 0 !important;
+  }
+  .blog__content {
+    padding-left: 0px;
+  }
+  .blog__info ul {
+    justify-content: space-between;
+  }
+  .blog__info ul li {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .blog__info ul li span {
+    padding-right: 8px;
+  }
+  .blog__info ul li span,
+  .blog__info ul li a {
+    font-size: 14px;
+  }
+  h3.blog__title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .blog__btn a {
+    font-size: 16px;
+  }
+  /* blog part css end */
+
+  /* footer part css start */
+  #footer {
+    padding-top: 80px;
+    padding-bottom: 10px;
+    text-align: start;
+  }
+  p.footer__left__text {
+    font-size: 16px;
+    line-height: 32px;
+    padding: 14px 0;
+  }
+  h4.footer__title {
+    font-size: 32px;
+    margin: 20px 0;
+  }
+  ul.footer__menu li a {
+    font-size: 16px;
+    padding: 4px 0;
+  }
+  .copyright__content {
+    align-items: center;
+  }
+  .copyright__left__text,
+  .copyright__right__content a {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  /* footer part css end */
+}
+
+/*!======================================== 
+  bootstrap sm device responsive... [sm]
+  her min-width:576px and max-width:767px
+========================================*/
+@media (min-width: 576px) and (max-width: 767px) {
+  nav.navbar {
+    background: rgb(22, 12, 109);
+  }
+  .navbar-toggler {
+    border: none;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .navbar-collapse,
+  .navbar-nav {
+    text-align: center;
+  }
+  .nav-link i.fa-solid {
+    display: none;
+  }
+  button.contact__btn {
+    padding: 10px 28px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  /* banner part css start */
+  h1.banner__title {
+    font-size: 42px;
+  }
+  p.banner__text {
+    font-size: 20px;
+    line-height: 40px;
+    padding: 0;
+  }
+  #banner {
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
+  .banner__btn {
+    padding: 15px 30px;
+    font-size: 20px;
+    margin: 10px;
+  }
+  /* banner part css end */
+
+  /* counting part css start */
+  #counting {
+    padding: 80px 0;
+  }
+  .counting__item {
+    margin: 10px 0;
+  }
+  .counting__num {
+    font-size: 50px;
+    margin: 0;
+  }
+  .counting__text {
+    font-size: 30px;
+  }
+  /* counting part css end */
+
+  /* about part css start */
+  #about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .about__left__content__icon {
+    margin-left: 6px;
+  }
+  p.about__left__text {
+    width: 100%;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .about__right__content {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  h3.about__right__title {
+    font-size: 38px;
+    padding-top: 20px;
+  }
+  p.about__right__description {
+    width: 100%;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    padding: 0 8px;
+  }
+  button.service__btn {
+    padding: 15px 30px;
+    font-size: 18px;
+  }
+  /* about part css end */
+
+  /* service part css start */
+  #service {
+    padding: 80px 0;
+  }
+  .service__heder {
+    text-align: center;
+  }
+  h3.service__title {
+    font-size: 38px;
+  }
+  p.service__description {
+    width: 100%;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    padding: 0 8px;
+  }
+  button.service__btn {
+    padding: 15px 30px;
+    font-size: 18px;
+  }
+  .service__item {
+    padding: 24px 12px;
+  }
+  h3.service__item__title {
+    font-size: 30px;
+    padding: 18px 0 6px 0;
+  }
+  p.service__item__text {
+    font-size: 16px;
+    line-height: 32px;
+    padding: 0 26px;
+  }
+  .service__item__btn a {
+    font-size: 18px;
+  }
+  /* service part css end */
+
+  /* real impact part css start */
+  section#real__impact {
+    padding: 80px 0;
+  }
+  h3.real__impact__title {
+    font-size: 38px;
+    padding-bottom: 5px;
+  }
+  p.real__impact__description {
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 12px;
+    padding: 0 8px;
+  }
+  .real__impact__content {
+    margin-top: 40px;
+  }
+  .real__impact__item {
+    align-items: center;
+  }
+  .impact__item__title {
+    font-size: 30px;
+    margin-top: 0;
+  }
+  .impact__item__text {
+    font-size: 16px;
+    line-height: 32px;
+    width: 100%;
+  }
+  /* real impact part css end */
+
+  /* price part css end */
+  section#price {
+    padding: 80px 0;
+  }
+  h3.price__title {
+    font-size: 38px;
+    margin-bottom: 40px;
+  }
+  .price__card {
+    padding: 40px 0;
+  }
+  h4.price__card__title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  /* h4.price__cost {
+    font-size: 28px;
+    padding: 14px 0;
+  }
+  h4.price__cost sup {
+    font-size: 18px;
+  } */
+  p.price__card__text {
+    font-size: 15px;
+    line-height: 32px;
+    padding: 0 8px;
+  }
+  /* price part css end */
+
+  /* feedback part css start */
+  section#feedback {
+    padding: 80px 0;
+  }
+  h3.feedback__title {
+    font-size: 38px;
+    margin-bottom: 120px;
+  }
+  .client__ratting {
+    margin: 20px 0;
+  }
+  p.client__text {
+    font-size: 18px;
+    line-height: 40px;
+    padding: 0 34px;
+  }
+  h4.client__name {
+    font-size: 25px;
+    margin-top: 28px;
+  }
+  p.client__info {
+    font-size: 16px;
+  }
+  .client__container {
+    padding: 60px 0 40px 0;
+  }
+  .client__img {
+    top: -80px;
+  }
+  .client__slide__btn {
+    position: relative;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: space-around;
+  }
+  /* feedback part css end */
+
+  /* blog part css start */
+  section#blog {
+    padding: 80px 0;
+  }
+  h3.blog__main__title {
+    font-size: 38px;
+    margin-bottom: 54px;
+    text-align: center;
+  }
+  .offset-1 {
+    margin-left: 0 !important;
+  }
+  .blog__content {
+    padding-left: 0px;
+  }
+  .blog__info ul {
+    justify-content: space-between;
+  }
+  .blog__info ul li {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .blog__info ul li span {
+    padding-right: 8px;
+  }
+  .blog__info ul li span,
+  .blog__info ul li a {
+    font-size: 16px;
+  }
+  h3.blog__title {
+    font-size: 24px;
+    line-height: 42px;
+  }
+  .blog__btn a {
+    font-size: 18px;
+  }
+  /* blog part css end */
+
+  /* footer part css start */
+  #footer {
+    padding-top: 80px;
+    padding-bottom: 10px;
+    text-align: start;
+  }
+  p.footer__left__text {
+    font-size: 16px;
+    line-height: 32px;
+    padding: 14px 0;
+  }
+  h4.footer__title {
+    font-size: 32px;
+    margin: 20px 0;
+  }
+  ul.footer__menu li a {
+    font-size: 16px;
+    padding: 4px 0;
+  }
+  .copyright__content {
+    align-items: center;
+  }
+  .copyright__left__text,
+  .copyright__right__content a {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  /* footer part css end */
+}
+
+/*!========================================
+  for extara small device---->[xsm]
+  max width media query start
+========================================*/
+@media (max-width: 575px) {
+  nav.navbar {
+    background: rgb(22, 12, 109);
+  }
+  .navbar-toggler {
+    border: none;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .navbar-collapse,
+  .navbar-nav {
+    text-align: center;
+  }
+  .nav-link i.fa-solid {
+    display: none;
+  }
+  button.contact__btn {
+    padding: 10px 28px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  /* banner part css start */
+  h1.banner__title {
+    font-size: 30px;
+  }
+  p.banner__text {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0;
+  }
+  #banner {
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
+  .banner__btn {
+    padding: 10px 20px;
+    font-size: 15px;
+    margin: 10px auto;
+  }
+  /* banner part css end */
+
+  /* counting part css start */
+  #counting {
+    padding: 80px 0;
+  }
+  .counting__item {
+    margin: 10px 0;
+  }
+  .counting__num {
+    font-size: 42px;
+    margin: 0;
+  }
+  .counting__text {
+    font-size: 24px;
+  }
+  /* counting part css end */
+
+  /* about part css start */
+  #about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .about__left__content__icon {
+    margin-left: 6px;
+  }
+  p.about__left__text {
+    width: 100%;
+    font-size: 15px;
+    line-height: 28px;
+  }
+  .about__right__content {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  h3.about__right__title {
+    font-size: 28px;
+    padding-top: 20px;
+  }
+  p.about__right__description {
+    width: 100%;
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    padding: 0 28px;
+  }
+  button.about__btn {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+  /* about part css end */
+
+  /* service part css start */
+  #service {
+    padding: 80px 0;
+  }
+  .service__heder {
+    text-align: center;
+  }
+  h3.service__title {
+    font-size: 28px;
+  }
+  p.service__description {
+    width: 100%;
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    padding: 0 28px;
+  }
+  button.service__btn {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+  .service__item {
+    padding: 24px 12px;
+  }
+  h3.service__item__title {
+    font-size: 26px;
+    padding: 18px 0 6px 0;
+  }
+  p.service__item__text {
+    font-size: 15px;
+    line-height: 28px;
+    padding: 0 18px;
+  }
+  .service__item__btn a {
+    font-size: 15px;
+  }
+  /* service part css end */
+
+  /* real impact part css start */
+  section#real__impact {
+    padding: 80px 0;
+  }
+  h3.real__impact__title {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  p.real__impact__description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-top: 12px;
+    padding: 0 28px;
+  }
+  .real__impact__content {
+    margin-top: 40px;
+  }
+  .real__impact__item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .impact__item__title {
+    font-size: 24px;
+    margin-top: 24px;
+  }
+  .impact__item__text {
+    font-size: 15px;
+    line-height: 28px;
+    width: 100%;
+  }
+  /* real impact part css end */
+
+  /* price part css end */
+  section#price {
+    padding: 80px 0;
+  }
+  h3.price__title {
+    font-size: 28px;
+    margin-bottom: 40px;
+    line-height: 42px;
+  }
+  .price__card {
+    padding: 40px 0;
+  }
+  h4.price__card__title {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  /* h4.price__cost {
+    font-size: 28px;
+    padding: 14px 0;
+  }
+  h4.price__cost sup {
+    font-size: 18px;
+  } */
+  p.price__card__text {
+    font-size: 15px;
+    line-height: 28px;
+    padding: 0 14px;
+  }
+  /* price part css end */
+
+  /* feedback part css start */
+  section#feedback {
+    padding: 80px 0;
+  }
+  h3.feedback__title {
+    font-size: 24px;
+    margin-bottom: 100px;
+    line-height: 42px;
+  }
+  .client__ratting {
+    margin: 20px 0;
+  }
+  p.client__text {
+    font-size: 15px;
+    line-height: 28px;
+    padding: 0 6px;
+  }
+  h4.client__name {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  p.client__info {
+    font-size: 14px;
+  }
+  .client__container {
+    padding: 60px 0 40px 0;
+  }
+  .client__img {
+    top: -80px;
+  }
+  .client__slide__btn {
+    position: relative;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: space-around;
+  }
+  /* feedback part css end */
+
+  /* blog part css start */
+  section#blog {
+    padding: 80px 0;
+  }
+  h3.blog__main__title {
+    font-size: 28px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .offset-1 {
+    margin-left: 0 !important;
+  }
+  .blog__content {
+    padding-left: 0px;
+  }
+  .blog__info ul {
+    justify-content: space-between;
+  }
+  .blog__info ul li {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .blog__info ul li span,
+  .blog__info ul li a {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  h3.blog__title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .blog__btn a {
+    font-size: 15px;
+  }
+  /* blog part css end */
+
+  /* footer part css start */
+  #footer {
+    padding-top: 80px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  p.footer__left__text {
+    font-size: 15px;
+    line-height: 28px;
+    padding: 14px 0;
+  }
+  h4.footer__title {
+    font-size: 32px;
+    margin: 20px 0;
+  }
+  ul.footer__menu li a {
+    font-size: 15px;
+    padding: 4px 0;
+  }
+  .copyright__content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .copyright__left__text,
+  .copyright__right__content a {
+    font-size: 14px;
+  }
+  /* footer part css end */
+}
